@@ -18,7 +18,7 @@ import {
   unlike,
   unrepost,
   type FeedPost,
-} from "./api/index.js"
+} from "@kud/bsky"
 
 const ESC = String.fromCharCode(27)
 const tty = process.stdout.isTTY

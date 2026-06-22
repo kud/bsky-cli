@@ -32,6 +32,7 @@
   },
   "dependencies": {
     "@inkjs/ui": "2.0.0",
+    "@kud/bsky": "0.1.0",
     "citty": "0.2.2",
     "ink": "7.0.6",
     "react": "19.2.7"

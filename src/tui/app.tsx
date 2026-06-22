@@ -13,7 +13,7 @@ import {
   type FeedPost,
   type Notification,
   type Profile,
-} from "../api/index.js"
+} from "@kud/bsky"
 
 const ESC = String.fromCharCode(27)
 const ALT_ENTER = `${ESC}[?1049h${ESC}[H`

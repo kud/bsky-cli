@@ -6,6 +6,13 @@ export default defineConfig({
   target: "node20",
   clean: true,
   splitting: false,
-  external: ["react", "react/jsx-runtime", "ink", "@inkjs/ui", "citty"],
+  external: [
+    "react",
+    "react/jsx-runtime",
+    "ink",
+    "@inkjs/ui",
+    "citty",
+    "@kud/bsky",
+  ],
   banner: { js: "#!/usr/bin/env node" },
 })
