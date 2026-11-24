@@ -25,21 +25,22 @@
   "scripts": {
     "build": "tsup",
     "dev": "tsx src/index.ts",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "test": "node --test"
   },
   "engines": {
-    "node": ">=20"
+    "node": ">=22"
   },
   "dependencies": {
     "@inkjs/ui": "2.0.0",
     "@kud/bsky": "0.1.0",
     "citty": "0.2.2",
-    "ink": "7.0.6",
-    "react": "19.2.7"
+    "ink": "8.0.0",
+    "react": "19.3.1"
   },
   "devDependencies": {
     "@types/node": "26.0.0",
-    "@types/react": "19.2.17",
+    "@types/react": "19.3.0",
     "tsup": "8.5.1",
     "tsx": "4.22.4",
     "typescript": "6.0.3"
