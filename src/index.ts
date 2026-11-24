@@ -1,6 +1,8 @@
 import { defineCommand, runMain } from "citty"
 import { subCommands } from "./commands.js"
 
+process.env.NODE_ENV ??= "production"
+
 const main = defineCommand({
   meta: {
     name: "bsky",
